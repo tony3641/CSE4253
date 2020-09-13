@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Author: Tony Han
+//Course: CSE4253
+//Date: 9/14/2020
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Permissions;
@@ -21,7 +26,7 @@ namespace Assignment1
             {
                 clipStr = Clipboard.GetText(TextDataFormat.UnicodeText);
             }
-            words = clipStr.Split(separators, 1000);
+            words = clipStr.Split(separators, 1000, StringSplitOptions.RemoveEmptyEntries).Distinct().ToArray();
 
             Array.Sort(words);
 
@@ -36,7 +41,6 @@ namespace Assignment1
                 }
                 Console.WriteLine(item);
             }
-
             Console.ReadKey();
         }
     }
