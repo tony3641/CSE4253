@@ -18,29 +18,30 @@ namespace Assignment1
         [System.STAThread]
         static void Main(string[] args)
         {
-            char[] separators = new char[] { ',', '.', ':' ,';','!','?',' ','\n','[',']','"','\'','(',')'};
+            char[] separators = new char[] { ',', '.', ':' ,';','!','?',' ','\n','[',']','"','\'','(',')'}; //declare separators
             String[] words = new String[1000];
-            String clipStr="aslkjf!jfkdsajf.fasdjfl";
+            String clipStr="";
             bool hasString = Clipboard.ContainsText();
-            if (hasString)
+
+            if (hasString)//if the clipboard is not empty
             {
                 clipStr = Clipboard.GetText(TextDataFormat.UnicodeText);
-            }
-            words = clipStr.Split(separators, 1000, StringSplitOptions.RemoveEmptyEntries).Distinct().ToArray();
+                words = clipStr.Split(separators, 1000, StringSplitOptions.RemoveEmptyEntries).Distinct().ToArray(); //get unique words
+                Array.Sort(words);
 
-            Array.Sort(words);
-
-            foreach (var item in words)
-            {
-                foreach (var sep in separators)
+                foreach (var item in words) //traverse the array
                 {
-                    if (item.Contains(sep))
+                    foreach (var sep in separators)
                     {
-                        item.Remove(sep);
+                        if (item.Contains(sep))
+                        {
+                            item.Remove(sep); //remove any separator from the string
+                        }
                     }
+                    Console.WriteLine(item);
                 }
-                Console.WriteLine(item);
             }
+            
             Console.ReadKey();
         }
     }
