@@ -38,7 +38,7 @@ namespace Assignment1
                             item.Remove(sep); //remove any separator from the string
                         }
                     }
-                    Console.WriteLine(item);
+                    Console.WriteLine(item.ToLower());
                 }
             }
             
