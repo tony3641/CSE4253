@@ -1,0 +1,9 @@
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\obj\Debug\netstandard2.0\ISceneGraph.csprojAssemblyReference.cache
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\obj\Debug\netstandard2.0\ISceneGraph.AssemblyInfoInputs.cache
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\obj\Debug\netstandard2.0\ISceneGraph.AssemblyInfo.cs
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\obj\Debug\netstandard2.0\ISceneGraph.csproj.CoreCompileInputs.cache
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\bin\Debug\netstandard2.0\ISceneGraph.deps.json
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\bin\Debug\netstandard2.0\ISceneGraph.dll
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\bin\Debug\netstandard2.0\ISceneGraph.pdb
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\obj\Debug\netstandard2.0\ISceneGraph.dll
+C:\Users\tony3\Documents\CSE4253\ISceneGraph\ISceneGraph\obj\Debug\netstandard2.0\ISceneGraph.pdb

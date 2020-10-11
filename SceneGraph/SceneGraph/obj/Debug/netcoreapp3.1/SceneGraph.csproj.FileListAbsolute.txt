@@ -1,0 +1,16 @@
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\SceneGraph.exe
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\SceneGraph.deps.json
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\SceneGraph.runtimeconfig.json
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\SceneGraph.runtimeconfig.dev.json
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\SceneGraph.dll
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\SceneGraph.pdb
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\ISceneGraph.dll
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\bin\Debug\netcoreapp3.1\ISceneGraph.pdb
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.csprojAssemblyReference.cache
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.AssemblyInfoInputs.cache
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.AssemblyInfo.cs
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.csproj.CoreCompileInputs.cache
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.csproj.CopyComplete
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.dll
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.pdb
+C:\Users\tony3\Documents\CSE4253\SceneGraph\SceneGraph\obj\Debug\netcoreapp3.1\SceneGraph.genruntimeconfig.cache
