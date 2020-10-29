@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Han.SceneGraph
 {
-    class Cube : DrawableNodeBase
+    [Serializable()]
+    internal class Cube : DrawableNodeBase
     {
         public Cube(String name) : base(name)
         {

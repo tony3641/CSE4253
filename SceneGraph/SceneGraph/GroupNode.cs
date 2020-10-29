@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using Han.ISceneGraph;
 
 namespace Han.SceneGraph
 {
-    class GroupNode : IGroupNode
+    [Serializable()]
+    internal class GroupNode : IGroupNode
     {
         public GroupNode(string name)
         {
@@ -30,7 +32,17 @@ namespace Han.SceneGraph
         {
             children.Add(child);
         }
-        
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        public IEnumerator<ISceneNode> GetEnumerator()
+        {
+            return children.GetEnumerator();
+        }
+
         private IList<ISceneNode> children = new List<ISceneNode>(8);
     }
 }

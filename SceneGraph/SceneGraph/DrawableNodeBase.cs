@@ -5,9 +5,9 @@ using Han.ISceneGraph;
 
 namespace Han.SceneGraph
 {
-    abstract class DrawableNodeBase : IDrawableNode
+    internal abstract class DrawableNodeBase : IDrawableNode
     {
-        public DrawableNodeBase(string name)
+        protected DrawableNodeBase(string name)
         {
             this.Name = name;
         }
